@@ -1,14 +1,11 @@
 const numeros = [1, 3, 2, 1];
 
 
-function definitGoleiro(jogadas) {
+function definirGoleiro(jogadas) {
     let somaJogadas = 0;
     for (let jogada of jogadas) {
         somaJogadas += jogada;
     }
-
-    console.log(somaJogadas); // apagar
-
 
     let posicaoGoleiro = 0;
 
@@ -25,4 +22,4 @@ function definitGoleiro(jogadas) {
     return posicaoGoleiro;
 
 }
-console.log(definitGoleiro(numeros));
+console.log(definirGoleiro(numeros));
