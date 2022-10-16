@@ -1,4 +1,4 @@
-Num jogo de futebol entre amigos é muito comum que ninguém queira ser o goleiro. Para resolver esse impasse, um time decidiu utilizar o jogo "Americano".
+8 - Num jogo de futebol entre amigos é muito comum que ninguém queira ser o goleiro. Para resolver esse impasse, um time decidiu utilizar o jogo "Americano".
 
 Neste jogo, o time faz uma roda e cada um dos jogadores "joga" um número X qualquer. Após isso, o capitão do time soma todos os números jogados e obtém o resultado S. Depois, começa a contar de 1 até S apontando inicialmente para si mesmo (e falando alto e claramente "um"), depois para o jogador imediatamente a sua direita (e falando "dois") e assim por diante. O goleiro será aquele que estiver sendo apontado quando o capitão chegar a S.
 
@@ -6,29 +6,26 @@ Para fins de facilitar a resposta do problema, vamos considerar que o capitão e
 
 Você deve fazer um programa que determina qual a posição do jogador que deve ser o goleiro.
 
-Input Format
+---
 
-A entrada será um array com N números, que corresempondem ao número jogado por cada um dos jogadores do time. Logo, se o array tiver tamanho 11, significa que este time tem 11 jogadores, por exemplo.
+<br>**Input Format**
+>A entrada será um array com N números, que corresempondem ao número jogado por cada um dos jogadores do time. Logo, se o array tiver tamanho 11, significa que este time tem 11 jogadores, por exemplo.
 
-Constraints
-
-0 < X < 11
-
+<br>**Constraints**
+>0 < X < 11  
 N < 12
 
-Output Format
+<br>**Output Format**
+>Imprima na tela a posição em que está o jogodar que foi sorteado para ser o goleiro.
 
-Imprima na tela a posição em que está o jogodar que foi sorteado para ser o goleiro.
+<br>**Sample Input 0**
+>1 3 2 1
 
-Sample Input 0
+<br>**Sample Output 0**
+>3
 
-1 3 2 1
-Sample Output 0
+<br>**Sample Input 1**
+>1 1 1
 
-3
-Sample Input 1
-
-1 1 1
-Sample Output 1
-
-3
+<br>**Sample Output 1**
+>3
